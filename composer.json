@@ -1,9 +1,10 @@
 {
-    "name": "lys/routing",
+    "name": "liz-framework/routing",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
-        }
+        },
+        "files": ["src/helpers.php"]
     },
     "authors": [
         {

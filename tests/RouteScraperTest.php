@@ -13,7 +13,6 @@ class RouteScraperTest extends TestCase
     public function testQuantityOfRoutesGreaterThanZero(string $directory)
     {
         $routeScraper = new RouteScraper($directory);
-        print_r(count($routeScraper->getRoutes()) . PHP_EOL);
         self::assertGreaterThan(0, count($routeScraper->getRoutes()));
     }
 
