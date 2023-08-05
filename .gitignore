@@ -2,3 +2,5 @@ vendor
 src/Controller
 composer.lock
 .idea
+.phpunit.result.cache
+.phpunit.cache

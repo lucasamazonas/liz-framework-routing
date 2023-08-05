@@ -2,7 +2,7 @@
 
 namespace App\Domain;
 
-enum MethodEnum: string
+enum Method: string
 {
     case GET = 'GET';
     case POST = 'POST';
