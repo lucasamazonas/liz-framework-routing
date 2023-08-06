@@ -90,6 +90,9 @@ class RouteScraper
         foreach ($reflectionClass->getMethods() as $method) {
             $routeClass = $this->getRouteMethod($method);
             if (is_null($routeClass)) continue;
+
+            $routeClass->setOriginClass($class);
+            $routeClass->setOriginClassMethod($method->getName());
             $routesClass[] = $routeClass;
         }
 
