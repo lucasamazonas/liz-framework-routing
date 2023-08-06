@@ -36,10 +36,10 @@ class NamespaceClassFromPathFileTest extends TestCase
     public static function getPathFileInvalid(): array
     {
         return [
-            ['/../src/Domain/1234567890.php'],
-            ['/../src/Infra/qwertyuiop.php'],
-            ['/../src/Controller/asdfghjklç.php'],
-            ['/../src/Controller/zxcvbnm,.;.php'],
+            [__DIR__ . '/../src/Domain/1234567890.php'],
+            [__DIR__ . '/../src/Infra/qwertyuiop.php'],
+            [__DIR__ . '/../src/Controller/asdfghjklç.php'],
+            [__DIR__ . '/../src/Controller/zxcvbnm,.;.php'],
         ];
     }
 }
