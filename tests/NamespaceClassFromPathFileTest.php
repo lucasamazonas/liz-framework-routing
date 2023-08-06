@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-use App\Controller\ExempleController;
-use App\Domain\Route;
-use App\Infra\RouteScraper;
+use Routing\Controller\ExempleController;
+use Routing\Domain\Route;
+use Routing\Infra\RouteScraper;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

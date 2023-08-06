@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace App\Infra;
+namespace Routing\Infra;
 
-use App\Domain\Route;
-use App\Exception\DirectoryDoesNotExistException;
+use Routing\Domain\Route;
+use Routing\Exception\DirectoryDoesNotExistException;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;

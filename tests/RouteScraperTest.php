@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use App\Exception\DirectoryDoesNotExistException;
-use App\Infra\RouteScraper;
+use Routing\Exception\DirectoryDoesNotExistException;
+use Routing\Infra\RouteScraper;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

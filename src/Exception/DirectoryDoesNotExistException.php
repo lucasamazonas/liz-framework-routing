@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Exception;
+namespace Routing\Exception;
 
 class DirectoryDoesNotExistException extends \Exception
 {
