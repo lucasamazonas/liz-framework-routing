@@ -52,7 +52,9 @@ class RouteScraper
 
         foreach ($this->fetchPhpFilesInDirectory($this->directory) as $file) {
             $namespace = getNamespaceFromFilePath($file);
-            if (is_null($namespace) || !class_exists($namespace)) continue;
+            if (is_null($namespace)) continue;
+            require_once $file;
+//            if (!class_exists($namespace)) continue;
             $namespaces[] = $namespace;
         }
 
