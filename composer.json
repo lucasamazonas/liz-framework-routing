@@ -1,5 +1,6 @@
 {
     "name": "liz-framework/routing",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
